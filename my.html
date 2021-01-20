@@ -1,0 +1,38 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>关于题谷</title>
+	<link type="text/css" rel="stylesheet" href="/css/modle.css" />
+	<link type="text/css" rel="stylesheet" href="/css/footer.css" />
+	<script src="/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+		<script type="text/javascript">
+		$(document).ready(function() {
+			$("#inc_head").load("inc/top.jsp");
+			$("#inc_foot").load("inc/foot.jsp");
+		});
+		$.ajaxSetup ({
+		    cache: false //关闭AJAX相应的缓存
+		});
+	</script>
+</head>
+<body>
+<!--顶部-->
+<div id="inc_head"></div>
+<!--主体内容-->
+<div class="aboutmain showgrid">
+	<h2>关于<span>题谷</span></h2>
+    <div class="twotitle">
+    	<span>About Us</span>
+    </div>
+    <img src="/images/common/aboutus.jpg" class="pic" />
+    <p class="about-p">北京题谷教育科技有限公司（www.tigu.cn）是以学生的作业和学习需求为出发点，为中学生提供个性化、实时、高效的学习解决方案和学习辅助服务的在线学习平台，网站提供主流版本教材及教辅材料的习题讲解视频，习题讲解由题目解答延展到思路方法归纳总结等本源问题，并推及知识点掌握程度诊断，注重解决学习方法、能力等更深层次的问题。辅以预习和巩固课程，形成科学完整学习环节。</p>
+    <p class="about-p" style="margin:25px auto;">强大的师资支撑下，题谷网目前已拥有大量课程资源，包括7-9年级习题讲解视频及课程视频。题谷坚持 “以理念创新成就教育，以科技创新服务学生”为己任，致力于以先进教育理念和科技应用，为中小学生提供个性化、低负担、高效率的学习解决方案以及全面的学习辅助服务。</p>
+</div>
+<!--==footer==-->
+<div class="clear"></div>
+<div id="inc_foot"></div>
+</body>
+</html>
+
